@@ -1,5 +1,15 @@
 :root {
+    --text: #8C8C8C;
 
+    --backgroundTravelInformation: #DFE5EA99;
+    --backgroundInput: #FFFFFF66;
+
+    --font-robot-medium: 'Robot Medium', Arial, sans-serif;
+    --font-robot-bold: 'Robot Bold', Arial, sans-serif;
+
+    --font-size-caption: 24px;
+    --font-size-cost: 50px;
+    --font-size-input: 16px;
 }
 
 html {
