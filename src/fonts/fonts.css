@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Inter';
+    font-weight: normal;
+    src: url("./Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url("./Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url("./Roboto-Bold.ttf") format("truetype");
+}
