@@ -1,5 +1,6 @@
 :root {
-    --text: #8C8C8C;
+    --textBaseColor: #8C8C8C;
+    --textCostColor: #FFFFFF;
 
     --backgroundTravelInformation: #DFE5EA99;
     --backgroundInput: #FFFFFF66;
