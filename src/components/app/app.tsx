@@ -1,9 +1,16 @@
 import React from 'react';
+import {TaxiCard} from "../taxi-card/taxi-card";
+import {taxiTestData} from "../../model/taxi";
+import styles from "./app.module.css"
 
 export const App = () => {
 
     return (
-        <p>Taxi App Components</p>
+        <div className={styles.main}>
+            <div className='container-sm text-center'>
+                <TaxiCard taxi={taxiTestData}/>
+            </div>
+        </div>
     )
 }
 
