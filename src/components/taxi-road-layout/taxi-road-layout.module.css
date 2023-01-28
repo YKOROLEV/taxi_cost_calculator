@@ -1,0 +1,37 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 90px;
+    /*width: 80px;*/
+    max-width: 100%;
+
+    margin-bottom: 16px;
+
+    background: var(--backgroundRoadLayout);
+    border-radius: 24px;
+}
+
+.image {
+    margin-top: 12px;
+}
+
+.text__value {
+    margin: 0;
+
+    font-family: var(--font-robot-medium);
+}
+
+@media (max-width: 576px) {
+    .text__value {
+        font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 576px) {
+    .text__value {
+        font-size: calc(8px + 1vw);
+    }
+}
