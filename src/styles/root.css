@@ -1,18 +1,20 @@
 :root {
-    --textBaseColor: #8C8C8C;
+    --textBaseColor: #343434;
     --textCostColor: #FFFFFF;
 
-    --backgroundTravelInformation: #DFE5EA99;
+    --backgroundRoadLayout: #DFECF599;
     --backgroundInput: #FFFFFF66;
 
     --font-robot-medium: 'Robot Medium', Arial, sans-serif;
     --font-robot-bold: 'Robot Bold', Arial, sans-serif;
+    --font-robot-light: 'Robot Light', Arial, sans-serif;
 
     --font-size-caption: 24px;
     --font-size-cost: 50px;
-    --font-size-input: 16px;
+    --font-size-road: 16px;
+    --font-size-input: 13px;
 }
 
-html {
+html, body, main {
     background: #DFE5EA;
 }
